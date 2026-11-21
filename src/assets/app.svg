@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 256 256">
+  <title>USB Capture Viewer</title>
+  <desc>A white display with a mint play symbol and a connected plug, on a navy rounded square.</desc>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="#142132"/>
+  <rect x="44" y="54" width="168" height="116" rx="20" fill="none" stroke="#F5FAFF" stroke-width="12"/>
+  <path d="M109 84 Q106 82 106 87 V137 Q106 142 110 139 L151 115 Q156 112 151 109 Z" fill="#59E1BE"/>
+  <path d="M128 170 V190 Q128 204 142 204 H166" fill="none" stroke="#59E1BE" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="164" y="186" width="36" height="36" rx="8" fill="#59E1BE"/>
+  <path d="M174 186 V176 M190 186 V176" fill="none" stroke="#59E1BE" stroke-width="8" stroke-linecap="round"/>
+</svg>

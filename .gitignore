@@ -1,0 +1,41 @@
+# Local builds and dependencies
+**/bin/
+**/obj/
+native/
+publish/
+artifacts/
+runtime-download/
+packages/
+.nuget/
+.dotnet/
+work/
+outputs/
+/upstream/
+*.nupkg
+*.pdb
+*.zip
+*.tar.*
+# Machine-local data and credentials
+.env
+.env.*
+!.env.example
+*.user
+*.suo
+.vs/
+.vscode/
+settings.json
+capture-status.json
+capabilities.json
+viewer.log*
+*.log
+*.lnk
+*verification.json
+self-test.json
+# Private captures never belong in this repository
+*.mp4
+*.mkv
+*.avi
+*.wav
+*.mp3
+Current-game*
+Switch2-*

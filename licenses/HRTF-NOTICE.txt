@@ -1,0 +1,3 @@
+HRTF data: dodeca_and_7channel_3DSL_HRTF.sofa
+Copyright (C) 2017 3D Sound Labs
+LGPL-2.1-or-later. The unchanged source data and original notice are in VLC source/share/hrtfs.
