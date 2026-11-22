@@ -16,10 +16,10 @@ The native plugins contain or link additional open-source libraries; do not inte
 
 ## Sources accompanying this Release
 
-Download these from the [same Release](https://github.com/gbaba86/usb-capture-viewer/releases/tag/v1.0.0-beta.1) as the binary:
+Download these from the [same Release](https://github.com/gbaba86/usb-capture-viewer/releases/tag/v1.0.0-beta.2) as the binary:
 
-- `USB-Capture-Viewer-v1.0.0-beta.1-source.zip`: this application's editable source, resources, build script, documentation and dependency lockfile.
-- `USB-Capture-Viewer-v1.0.0-beta.1-corresponding-sources.zip`: VLC 3.0.24 release source and the source snapshot matching the native build's changeset, its contrib build recipes/patches and associated library source archives, plus LibVLCSharp, DirectShowLib and NAudio source snapshots. The manifest records upstream URLs, revisions and cryptographic checksums.
+- `USB-Capture-Viewer-v1.0.0-beta.2-source.zip`: this application's editable source, resources, build script, documentation and dependency lockfile.
+- [Unchanged upstream corresponding-source ZIP from beta.1](https://github.com/gbaba86/usb-capture-viewer/releases/download/v1.0.0-beta.1/USB-Capture-Viewer-v1.0.0-beta.1-corresponding-sources.zip): VLC 3.0.24 release source and the source snapshot matching the native build's changeset, its contrib build recipes/patches and associated library source archives, plus LibVLCSharp, DirectShowLib and NAudio source snapshots. Beta.2 uses identical upstream binaries. SHA256: `a101d6e6bd33b36a0700481bffad7e00e9194ec52be832faa0a375aee4668de7`.
 - `SHA256SUMS.txt`: release-asset checksums using filenames only.
 
 The contrib collection includes library archives referenced by VLC's matching build recipes. Compiler/operating-system interface headers and non-Windows X11 packages are not separately mirrored as individual header files; a MinGW source archive and VLC build recipes are supplied. Installer tools not included in this application are not part of the shipped runtime. No private local build tree, credentials or tester data is included.
@@ -40,4 +40,4 @@ Keep the corresponding source and license materials available with redistributed
 
 Source แอปใช้ GPL-2.0-or-later ส่วนไลบรารีและข้อมูลที่รวมมามีสิทธิ์ของตนเองตามตาราง เก็บ license, copyright และ notice ต้นฉบับไว้ในชุดแจกจ่าย ไม่ใช่สรุปว่าทุกส่วนใช้ license เดียวกับ VLC
 
-Release เดียวกับไบนารีมี source แอปที่แก้ไขได้, corresponding-source bundle ของ VLC/ไลบรารีและ build patches, และ SHA-256 ที่ไม่มี path ส่วนตัว เมื่อแจกต่อส่วน GPL/LGPL ให้คง source และข้อมูลสิทธิ์ที่เกี่ยวข้อง สามารถแทนไลบรารี dynamic ด้วยรุ่นดัดแปลงที่เข้ากันได้ ไม่มี DRM ขัดขวาง เอกสารนี้ไม่ได้อ้างว่าผ่านการตรวจสิทธิบัตรหรือกฎหมายทุกประเทศ
+Release นี้มี source แอปที่แก้ไขได้และ SHA-256 ส่วน corresponding-source bundle ของ VLC/ไลบรารีและ build patches ใช้ไฟล์ beta.1 ที่ลิงก์ด้านบน เนื่องจากไลบรารีเดิมไม่เปลี่ยน เมื่อแจกต่อส่วน GPL/LGPL ให้คง source และข้อมูลสิทธิ์ที่เกี่ยวข้อง สามารถแทนไลบรารี dynamic ด้วยรุ่นดัดแปลงที่เข้ากันได้ ไม่มี DRM ขัดขวาง เอกสารนี้ไม่ได้อ้างว่าผ่านการตรวจสิทธิบัตรหรือกฎหมายทุกประเทศ

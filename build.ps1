@@ -24,4 +24,4 @@ $publish = Join-Path $buildRoot 'publish'
 Copy-Item -LiteralPath (Join-Path $buildRoot 'licenses') -Destination $publish -Recurse -Force
 Copy-Item -LiteralPath (Join-Path $buildRoot 'LICENSE'),(Join-Path $buildRoot 'THIRD_PARTY_NOTICES.md'),(Join-Path $buildRoot 'README.md'),(Join-Path $buildRoot 'README.th.md') -Destination $publish -Force
 Copy-Item -LiteralPath (Join-Path $buildRoot 'docs') -Destination $publish -Recurse -Force
-Write-Host 'Build complete. Open publish\SwitchCaptureViewer.exe; keep the whole folder together.'
+Write-Host 'Build complete. Open publish\USBCaptureViewer.exe; keep the whole folder together.'

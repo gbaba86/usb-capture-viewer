@@ -1,22 +1,30 @@
 # USB Capture Viewer
 
+## [ดาวน์โหลดแอป Windows — ZIP พร้อมใช้](https://github.com/gbaba86/usb-capture-viewer/releases/download/v1.0.0-beta.2/USB-Capture-Viewer-v1.0.0-beta.2-win-x64.zip)
+
+1. ดาวน์โหลด **Windows ZIP** จากลิงก์ด้านบน
+2. แตก ZIP **ทั้งหมด** แล้วเปิดโฟลเดอร์ `USB-Capture-Viewer`
+3. ดับเบิลคลิก **USBCaptureViewer.exe**
+
+**Code → Download ZIP** และ **Source code** เป็นซอร์สสำหรับนักพัฒนา ไม่มี EXE พร้อมใช้ ให้เก็บ DLL และโฟลเดอร์ `libvlc` ไว้ข้างตัวแอปทั้งหมด
+
 <img src="docs/icon.png" alt="ไอคอน USB Capture Viewer" width="112">
 
 แอป Windows ขนาดเล็กสำหรับเล่นเครื่องเกมผ่านการ์ดแคปเจอร์ HDMI แบบ USB พร้อมภาพและเสียง ไม่ต้องตั้งค่า OBS ไม่มีสตรีมหรือบันทึกวิดีโอ
 
 **รุ่นทดลอง** ทดสอบกับ **Nintendo Switch 2 + AVerMedia Live Gamer MINI (GC311)** จริง ผู้ทดสอบยืนยันว่าหลังปรับปรุงแล้วภาพและเสียงพอเล่นได้ แต่ยังสัมผัสความหน่วงได้บ้าง ยังไม่รับรองการ์ดหรือเครื่องเกมทุกตัว เป็นโครงการอิสระ ไม่ใช่ผลิตภัณฑ์ทางการของ Nintendo, AVerMedia, Microsoft หรือ VideoLAN
 
-[English](README.md) · [คู่มือภาษาไทย](docs/USER_GUIDE.th.md) · [English user guide](docs/USER_GUIDE.en.md) · [ดาวน์โหลด](https://github.com/gbaba86/usb-capture-viewer/releases/tag/v1.0.0-beta.1)
+[English](README.md) · [คู่มือภาษาไทย](docs/USER_GUIDE.th.md) · [English user guide](docs/USER_GUIDE.en.md) · [ดาวน์โหลด](https://github.com/gbaba86/usb-capture-viewer/releases/tag/v1.0.0-beta.2)
 
 ## ดาวน์โหลดและเปิดใช้
 
-1. ดาวน์โหลด **USB-Capture-Viewer-v1.0.0-beta.1-win-x64.zip** จาก [Releases](https://github.com/gbaba86/usb-capture-viewer/releases/tag/v1.0.0-beta.1)
+1. ดาวน์โหลด **USB-Capture-Viewer-v1.0.0-beta.2-win-x64.zip** จาก [Releases](https://github.com/gbaba86/usb-capture-viewer/releases/tag/v1.0.0-beta.2)
 2. แตก ZIP **ทั้งหมด** ไปในโฟลเดอร์ เก็บไฟล์และโฟลเดอร์ย่อยไว้ด้วยกัน
 3. ต่อ **HDMI จากเครื่องเกม/ด็อก → HDMI IN ของการ์ด** แล้วต่อ **USB ของการ์ด → คอม** ส่วน HDMI OUT เป็นทางเลือกตามการ์ด
-4. เปิด **SwitchCaptureViewer.exe** โปรแกรมจะเชื่อมต่ออุปกรณ์ที่จำไว้ หรือ Live Gamer MINI ที่ตรวจพบในการใช้ครั้งแรกเอง
+4. เปิด **USBCaptureViewer.exe** โปรแกรมจะเชื่อมต่ออุปกรณ์ที่จำไว้ หรือ Live Gamer MINI ที่ตรวจพบในการใช้ครั้งแรกเอง
 5. การ์ดอื่นให้เลือกอุปกรณ์ภาพและเสียงครั้งแรก ทั้งสองอาจเป็นคนละอุปกรณ์ โปรแกรมจะจำค่า และไม่เดาเปิดเว็บแคมหรือไมโครโฟนส่วนตัวแทน
 
-ต้องใช้ Windows x64 ชุดดาวน์โหลดรวม .NET 10 และไลบรารีวิดีโอไว้แล้ว ไม่ต้องติดตั้ง .NET, Python, VLC หรือ OBS แยก เครื่องทดสอบเป็น Windows 10 Pro 22H2 ไม่ถือเป็นการรับรองระยะสนับสนุนความปลอดภัยของระบบ ควรใช้ Windows x64 ที่ยังได้รับการสนับสนุน (แนะนำ Windows 11) ส่วน Windows 10 ขึ้นกับเงื่อนไข servicing/ESU ของ Microsoft ไฟล์ EXE **ไม่ได้ลงนาม Authenticode** อย่าปิดระบบความปลอดภัยของ Windows เพื่อเปิดแอป ตรวจ [SHA-256](https://github.com/gbaba86/usb-capture-viewer/releases/download/v1.0.0-beta.1/SHA256SUMS.txt) และตัดสินใจว่าคุณเชื่อถือรุ่นทดลองนี้หรือไม่
+ต้องใช้ Windows x64 ชุดดาวน์โหลดรวม .NET 10 และไลบรารีวิดีโอไว้แล้ว ไม่ต้องติดตั้ง .NET, Python, VLC หรือ OBS แยก เครื่องทดสอบเป็น Windows 10 Pro 22H2 ไม่ถือเป็นการรับรองระยะสนับสนุนความปลอดภัยของระบบ ควรใช้ Windows x64 ที่ยังได้รับการสนับสนุน (แนะนำ Windows 11) ส่วน Windows 10 ขึ้นกับเงื่อนไข servicing/ESU ของ Microsoft ไฟล์ EXE **ไม่ได้ลงนาม Authenticode** อย่าปิดระบบความปลอดภัยของ Windows เพื่อเปิดแอป ตรวจ [SHA-256](https://github.com/gbaba86/usb-capture-viewer/releases/download/v1.0.0-beta.2/SHA256SUMS.txt) และตัดสินใจว่าคุณเชื่อถือรุ่นทดลองนี้หรือไม่
 
 ## ปุ่มควบคุม
 

@@ -1,19 +1,19 @@
 # User guide — English
 
-[ภาษาไทย](USER_GUIDE.th.md) · [Home](../README.md) · [Downloads](https://github.com/gbaba86/usb-capture-viewer/releases/tag/v1.0.0-beta.1)
+[ภาษาไทย](USER_GUIDE.th.md) · [Home](../README.md) · [Downloads](https://github.com/gbaba86/usb-capture-viewer/releases/tag/v1.0.0-beta.2)
 
 ## 1. Requirements and download
 
 - A Windows x64 PC, a compatible USB HDMI capture card, the console/dock and its power supply, HDMI cable and USB cable.
 - Tested combination: Nintendo Switch 2 with AVerMedia Live Gamer MINI GC311. Other combinations are not certified. This app displays common SDR capture formats up to 1080p60 in a 16:9 preview.
 - The portable build contains .NET 10 and the native media libraries. You do not need Python, a separate .NET runtime, VLC or OBS.
-- Download `USB-Capture-Viewer-v1.0.0-beta.1-win-x64.zip` from Releases. Extract **all** files before opening `SwitchCaptureViewer.exe`. Do not move just the EXE away from the DLLs and subfolders.
+- Download `USB-Capture-Viewer-v1.0.0-beta.2-win-x64.zip` from Releases. Extract **all** files before opening `USBCaptureViewer.exe`. Do not move just the EXE away from the DLLs and subfolders.
 - The preview build is unsigned. Verify `SHA256SUMS.txt`; do not disable Windows security settings. If security software blocks it, do not bypass that protection unless you independently trust the file.
 
 To check the download in PowerShell:
 
 ```powershell
-Get-FileHash .\USB-Capture-Viewer-v1.0.0-beta.1-win-x64.zip -Algorithm SHA256
+Get-FileHash .\USB-Capture-Viewer-v1.0.0-beta.2-win-x64.zip -Algorithm SHA256
 ```
 
 Compare the result with the filename's entry in `SHA256SUMS.txt` from the same Release. A matching checksum checks download integrity; it does not establish that software is safe.
@@ -29,7 +29,7 @@ Compare the result with the filename's entry in `SHA256SUMS.txt` from the same R
 
 ## 3. Open and choose devices
 
-Open `SwitchCaptureViewer.exe`. It connects to saved inputs automatically. On first use, a detected **Live Gamer MINI** and its matching **Digital Audio Interface (Live Gamer MINI)** are suggested and connected automatically.
+Open `USBCaptureViewer.exe`. It connects to saved inputs automatically. On first use, a detected **Live Gamer MINI** and its matching **Digital Audio Interface (Live Gamer MINI)** are suggested and connected automatically.
 
 For another capture card, use **อุปกรณ์วิดีโอ** (video input) and **อุปกรณ์เสียงเข้า** (audio input) once. Choose the card's HDMI audio, which may have a different name from its video. Choose **ไม่รับเสียง** for video only. The app remembers the selection. Changing an input reconnects the preview.
 

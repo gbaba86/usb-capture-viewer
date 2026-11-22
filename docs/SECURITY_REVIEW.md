@@ -1,6 +1,6 @@
 # Public release review / การตรวจชุดเผยแพร่
 
-Review date: **2026-11-21**. Scope: **v1.0.0-beta.1**, not a professional penetration test or guarantee of safety.
+Review date: **2026-11-22**. Scope: **v1.0.0-beta.2**, not a professional penetration test or guarantee of safety. This hotfix changes executable branding and download guidance; capture/audio logic and dependency versions are unchanged. The renamed app passed all 19 synthetic integration checks.
 
 ## Build and dependencies
 

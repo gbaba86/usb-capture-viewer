@@ -1,22 +1,30 @@
 # USB Capture Viewer
 
+## [Download Windows app — ready-to-run ZIP](https://github.com/gbaba86/usb-capture-viewer/releases/download/v1.0.0-beta.2/USB-Capture-Viewer-v1.0.0-beta.2-win-x64.zip)
+
+1. Download the **Windows ZIP** using the link above.
+2. Extract **all** files, then open the `USB-Capture-Viewer` folder.
+3. Double-click **USBCaptureViewer.exe**.
+
+**Code → Download ZIP** and **Source code** downloads are for developers; they contain source, not the ready-to-run EXE. Keep the DLLs and `libvlc` folder beside the app.
+
 <img src="docs/icon.png" alt="USB Capture Viewer icon" width="112">
 
 A small Windows app for playing a console through a USB HDMI capture card, with live video and audio. No OBS setup, streaming, or recording.
 
 **Experimental preview.** Physically tested with **Nintendo Switch 2 + AVerMedia Live Gamer MINI (GC311)**. The tester found the improved video/audio playable but could still feel some delay. Other capture cards and consoles are not certified. This is an independent project, not an official Nintendo, AVerMedia, Microsoft, or VideoLAN product.
 
-[ภาษาไทย](README.th.md) · [English user guide](docs/USER_GUIDE.en.md) · [คู่มือภาษาไทย](docs/USER_GUIDE.th.md) · [Downloads](https://github.com/gbaba86/usb-capture-viewer/releases/tag/v1.0.0-beta.1)
+[ภาษาไทย](README.th.md) · [English user guide](docs/USER_GUIDE.en.md) · [คู่มือภาษาไทย](docs/USER_GUIDE.th.md) · [Downloads](https://github.com/gbaba86/usb-capture-viewer/releases/tag/v1.0.0-beta.2)
 
 ## Download and run
 
-1. Download **USB-Capture-Viewer-v1.0.0-beta.1-win-x64.zip** from [Releases](https://github.com/gbaba86/usb-capture-viewer/releases/tag/v1.0.0-beta.1).
+1. Download **USB-Capture-Viewer-v1.0.0-beta.2-win-x64.zip** from [Releases](https://github.com/gbaba86/usb-capture-viewer/releases/tag/v1.0.0-beta.2).
 2. Extract **the entire ZIP** to a folder. Keep all its files together.
 3. Connect console/dock **HDMI → capture card HDMI IN**, then capture card **USB → PC**. HDMI OUT is optional, depending on the card.
-4. Open **SwitchCaptureViewer.exe**. The saved device, or a detected Live Gamer MINI on first use, connects automatically.
+4. Open **USBCaptureViewer.exe**. The saved device, or a detected Live Gamer MINI on first use, connects automatically.
 5. For another card, choose its video and audio inputs once. They can be separate devices. The app remembers them; it does not guess a personal webcam or microphone as a replacement.
 
-Windows x64 is required. The release is self-contained with .NET 10 and the native media libraries; no separate .NET, Python, VLC, or OBS installation is needed. The local test machine ran Windows 10 Pro 22H2; this does not certify operating-system security support. Use a currently supported Windows x64 release (Windows 11 recommended); Windows 10 support depends on the applicable Microsoft servicing/ESU arrangements. The executable is **not Authenticode signed**. Do not disable Windows security to run it. Verify the [SHA-256 checksums](https://github.com/gbaba86/usb-capture-viewer/releases/download/v1.0.0-beta.1/SHA256SUMS.txt) and decide whether you trust this experimental build.
+Windows x64 is required. The release is self-contained with .NET 10 and the native media libraries; no separate .NET, Python, VLC, or OBS installation is needed. The local test machine ran Windows 10 Pro 22H2; this does not certify operating-system security support. Use a currently supported Windows x64 release (Windows 11 recommended); Windows 10 support depends on the applicable Microsoft servicing/ESU arrangements. The executable is **not Authenticode signed**. Do not disable Windows security to run it. Verify the [SHA-256 checksums](https://github.com/gbaba86/usb-capture-viewer/releases/download/v1.0.0-beta.2/SHA256SUMS.txt) and decide whether you trust this experimental build.
 
 ## Controls
 

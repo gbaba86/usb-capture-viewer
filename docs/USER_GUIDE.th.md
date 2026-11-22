@@ -1,19 +1,19 @@
 # คู่มือใช้งาน — ภาษาไทย
 
-[English](USER_GUIDE.en.md) · [หน้าแรก](../README.th.md) · [ดาวน์โหลด](https://github.com/gbaba86/usb-capture-viewer/releases/tag/v1.0.0-beta.1)
+[English](USER_GUIDE.en.md) · [หน้าแรก](../README.th.md) · [ดาวน์โหลด](https://github.com/gbaba86/usb-capture-viewer/releases/tag/v1.0.0-beta.2)
 
 ## 1. สิ่งที่ต้องมีและดาวน์โหลด
 
 - คอม Windows x64, การ์ดแคปเจอร์ HDMI แบบ USB ที่เข้ากันได้, เครื่องเกม/ด็อกพร้อมไฟ, สาย HDMI และ USB
 - ชุดที่ทดสอบจริงคือ Nintendo Switch 2 กับ AVerMedia Live Gamer MINI GC311 ยังไม่รับรองทุกการ์ด/เครื่องเกม แอปแสดงโหมด SDR ทั่วไปไม่เกิน 1080p60 ในพรีวิว 16:9
 - ชุดพกพารวม .NET 10 และไลบรารีวิดีโอแล้ว ไม่ต้องติดตั้ง Python, .NET runtime, VLC หรือ OBS แยก
-- ดาวน์โหลด `USB-Capture-Viewer-v1.0.0-beta.1-win-x64.zip` จาก Releases แตกไฟล์ **ทั้งหมด** ก่อนเปิด `SwitchCaptureViewer.exe` อย่าย้าย EXE ออกมาจาก DLL และโฟลเดอร์ย่อย
+- ดาวน์โหลด `USB-Capture-Viewer-v1.0.0-beta.2-win-x64.zip` จาก Releases แตกไฟล์ **ทั้งหมด** ก่อนเปิด `USBCaptureViewer.exe` อย่าย้าย EXE ออกมาจาก DLL และโฟลเดอร์ย่อย
 - รุ่นทดลองนี้ไม่ได้ลงนามดิจิทัล ตรวจ `SHA256SUMS.txt` และอย่าปิดระบบความปลอดภัยของ Windows หากถูกบล็อกอย่าข้ามการป้องกัน เว้นแต่คุณตรวจและเชื่อถือไฟล์ด้วยตนเอง
 
 ตรวจไฟล์ใน PowerShell ได้ดังนี้:
 
 ```powershell
-Get-FileHash .\USB-Capture-Viewer-v1.0.0-beta.1-win-x64.zip -Algorithm SHA256
+Get-FileHash .\USB-Capture-Viewer-v1.0.0-beta.2-win-x64.zip -Algorithm SHA256
 ```
 
 เทียบผลกับบรรทัดชื่อไฟล์ใน `SHA256SUMS.txt` ของ Release เดียวกัน ค่า checksum ที่ตรงกันตรวจความครบของดาวน์โหลด ไม่ได้ยืนยันว่าซอฟต์แวร์ปลอดภัย
@@ -29,7 +29,7 @@ Get-FileHash .\USB-Capture-Viewer-v1.0.0-beta.1-win-x64.zip -Algorithm SHA256
 
 ## 3. เปิดและเลือกอุปกรณ์
 
-เปิด `SwitchCaptureViewer.exe` โปรแกรมจะเชื่อมต่ออุปกรณ์ที่จำไว้เอง ครั้งแรกหากพบ **Live Gamer MINI** จะเลือกภาพและ **Digital Audio Interface (Live Gamer MINI)** แล้วเชื่อมต่อให้อัตโนมัติ
+เปิด `USBCaptureViewer.exe` โปรแกรมจะเชื่อมต่ออุปกรณ์ที่จำไว้เอง ครั้งแรกหากพบ **Live Gamer MINI** จะเลือกภาพและ **Digital Audio Interface (Live Gamer MINI)** แล้วเชื่อมต่อให้อัตโนมัติ
 
 การ์ดอื่นให้เลือก **อุปกรณ์วิดีโอ** และ **อุปกรณ์เสียงเข้า** ครั้งแรก เลือกเสียง HDMI ของการ์ด ซึ่งอาจชื่อไม่เหมือนวิดีโอ เลือก **ไม่รับเสียง** หากต้องการเฉพาะภาพ โปรแกรมจะจำค่า การเปลี่ยนอุปกรณ์จะเชื่อมต่อพรีวิวใหม่
 

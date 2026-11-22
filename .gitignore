@@ -39,3 +39,4 @@ self-test.json
 *.mp3
 Current-game*
 Switch2-*
+/publish-beta2*/
